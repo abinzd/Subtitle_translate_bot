@@ -1,0 +1,32 @@
+{
+  "name": "translatesubtitleBot",
+  "description": "A telegram bot which translates subtitle file to another language",
+  "keywords": ["Subtitle","telegram","telegram bot","bot","pyrogram","subtitle translator","translator","python"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token from @Botfather",
+      "value": "5669063641:AAGhSdOuO9HdngUCWY_vqEr3mLz3MJ-3f4k"
+    },
+    "BOT_NAME": {
+      "description": "Your bot name @botname",
+      "value": "@subtranslateBot"
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org!",
+      "value": "13754070"
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org!",
+      "value": "ed1c8b59ca8a516b685060350fd8c9b1"
+    },
+    "DB_URL": {
+      "description": "Your DATABASE url from console.firebase.google.com",
+      "value": "https://translate-697e0-default-rtdb.firebaseio.com/"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
